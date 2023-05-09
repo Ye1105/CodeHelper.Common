@@ -1,9 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Title>CodeHelper.Common</Title>
+		<Nullable>enable</Nullable>
+		<Company>YeJiancong</Company>
+		<Description>常用帮助类，使用方式请参考github说明文档：https://github.com/Ye1105/CodeHelper.Common</Description>
+	</PropertyGroup>
 
 </Project>
