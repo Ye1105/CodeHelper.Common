@@ -326,13 +326,12 @@
         /// <summary>
         /// 服务器需要对请求进行进一步扩展才能完成请求。
         /// </summary>
-        NOT_EXTENDED=510,
+        NOT_EXTENDED = 510,
 
         /// <summary>
         /// 指示客户端需要进行身份验证才能获得网络访问权限。
         /// </summary>
         NETWORK_AUTHENTICATION_REQUIRED = 511
-
 
         #endregion 服务端错误响应
     }
