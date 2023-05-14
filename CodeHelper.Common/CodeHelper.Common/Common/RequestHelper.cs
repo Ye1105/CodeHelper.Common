@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
+
 namespace CodeHelper.Common
 {
-    public static class Common
+    public static class RequestHelper
     {
         /// <summary>
         /// 判定 HttpRequest 是否是 Ajax 请求
@@ -13,5 +14,6 @@ namespace CodeHelper.Common
             string? header = request.Headers["X-Requested-With"];
             return "XMLHttpRequest".Equals(header);
         }
+
     }
 }
