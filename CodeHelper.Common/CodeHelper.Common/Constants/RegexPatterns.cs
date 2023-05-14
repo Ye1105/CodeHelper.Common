@@ -6,9 +6,9 @@
     public static class Rgx
     {
         /// <summary>
-        /// 手机号正则
+        /// 手机号规范
         /// </summary>
-        public static readonly (string, string) RGX_PHONE = (@"^1[3456789]\d{9}$", "手机号正则");
+        public static readonly (string, string) RGX_PHONE = (@"^1[3456789]\d{9}$", "手机号规范");
 
         /// <summary>
         /// 特殊字符
