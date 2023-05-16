@@ -1,4 +1,6 @@
-﻿namespace CodeHelper.Common
+﻿using System.ComponentModel;
+
+namespace CodeHelper.Common
 {
     /// <summary>
     /// HTTP 响应状态码
