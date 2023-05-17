@@ -1,4 +1,6 @@
-﻿namespace CodeHelper.Common.Validator
+﻿using System.Linq.Expressions;
+
+namespace CodeHelper.Common.Validator
 {
     public static class VerifyHelper
     {
@@ -18,7 +20,7 @@
         {
             if (string.IsNullOrWhiteSpace(text)) throw new ArgumentNullException(nameof(text));
             if (pattern == null) throw new ArgumentNullException(nameof(pattern));
-            return regex();
+            return regex.Invoke();
         }
     }
 }
