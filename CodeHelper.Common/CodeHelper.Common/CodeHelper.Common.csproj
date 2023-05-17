@@ -7,6 +7,7 @@
 		<Nullable>enable</Nullable>
 		<Company>YeJiancong</Company>
 		<Description>常用帮助类，使用方式请参考github说明文档：https://github.com/Ye1105/CodeHelper.Common</Description>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
