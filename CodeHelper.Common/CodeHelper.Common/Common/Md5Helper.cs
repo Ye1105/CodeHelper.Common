@@ -34,6 +34,7 @@ namespace CodeHelper.Common
                 return string.Empty;
             }
         }
+
         #region "MD5加密"
         /// <summary>
         /// MD5加密
